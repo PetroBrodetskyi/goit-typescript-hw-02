@@ -7,7 +7,7 @@ interface Props {
 }
 
 
-class Component<T extends Props> {
+class Component<T> {
   constructor (public props:T) {
   }
 }
